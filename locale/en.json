@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "App Restart Button",
+    "description": "Adds a persistent Restart DeepSeek Harness button to the bottom bar. Clicking it asks for confirmation, then restarts the whole desktop application — useful when plugin hot reload has failed or a session is stuck and only a full restart recovers it. The dialog warns that the running turn will be interrupted."
+  }
+}
