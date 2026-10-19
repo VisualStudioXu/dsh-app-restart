@@ -3,6 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "description": "在界面底部常驻一条「重启 DeepSeek Harness」按钮，带二次确认，重启整个桌面应用。",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VisualStudioXu/dsh-app-restart.git"
+  },
+  "homepage": "https://github.com/VisualStudioXu/dsh-app-restart#readme",
+  "bugs": {
+    "url": "https://github.com/VisualStudioXu/dsh-app-restart/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "restart"
+  ],
   "type": "module",
   "exports": {
     ".": "./index.js",
@@ -17,7 +31,8 @@
     "client.js",
     "cordis.patch.yml",
     "locale/*.json",
-    "icon.svg"
+    "icon.svg",
+    "README.md"
   ],
   "dsh": {
     "bundle": {
